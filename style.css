@@ -3,15 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #000;
+  color: white;
+}
 h2{
+  margin: 20px;
   text-align: center;
 }
 .wrap{
   max-width: 1000px;
   margin: 50px auto;
-  border: 1px solid black;
-  min-height: 75px;
+  border: 2px dotted white;
+  min-height: 100px;
   text-align: center;
+  
 }
 
 .block { 
@@ -38,15 +44,14 @@ h2{
   background: orange;
   position: absolute;
   left: 50%;
-  top: -15%;
   margin-left: -37.5px;
 }
 
 .pink{
   background: pink;
   position: absolute;
-  left: 50%;
-  transform: translate(-60%, -15%);
+  left: 49%;
+  transform: translate(-51%, 0);
 }
 
 .flex-div{
