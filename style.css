@@ -7,6 +7,10 @@ body{
   background-color: #000;
   color: white;
 }
+h1{
+  text-align: center;
+  margin: 30px;
+}
 h2{
   margin: 20px;
   text-align: center;
@@ -85,3 +89,7 @@ h2{
   visibility: hidden;
 }
 
+.footer{
+  text-align: center;
+  margin: 20px;
+}
